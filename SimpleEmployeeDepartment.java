@@ -79,7 +79,7 @@ public class SimpleEmployeeDepartment {
 
         // initialize two subdirectories under the company, Employee and Department
         final DirectorySubspace departmentTable = rootDirectory.createOrOpen(db, PathUtil.from("Department")).join();
-        ;
+        
         final DirectorySubspace employeeTable = rootDirectory.createOrOpen(db, PathUtil.from("Employee")).join();
 
         System.out.println("Create Department and Employee directory successfully!");
